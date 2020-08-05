@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 
 const Navbar = (props) => {
+
   const { darkMode, setDarkMode } = props
+  
   const toggleMode = e => {
     e.preventDefault();
     setDarkMode(!darkMode);
